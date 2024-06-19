@@ -1,0 +1,52 @@
+body {
+    background-image: url('bbkai.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #657b83;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #93a1a1;
+    border-radius: 10px;
+    background-color: rgba(255, 243, 224, 0.9);
+}
+
+h1 {
+    font-size: 3em;
+    color: #066ba3;
+}
+
+
+
+button {
+    background-color: #268bd2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #066ba3;
+}
+
+.hidden {
+    display: none;
+}
+
+#surpriseMessage {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #066ba3;
+}
